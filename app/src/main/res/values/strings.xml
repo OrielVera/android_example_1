@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="correo_placeholder">Correo</string>
+    <string name="contrasenha_placeholder">Contraseña</string>
+    <string name="ingresar_button">Ingresar</string>
+    <string name="recuperar_contrasenha_button">Recuperar Contraseña</string>
+    <string name="registro_button">Registro</string>
+    <string name="recuperar_button">Recuperar</string>
+    <string name="title_activity_recuperar">RecuperarActivity</string>
+
+</resources>

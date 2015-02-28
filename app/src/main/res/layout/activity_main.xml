@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/correo_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_placeholder"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/contrasenha_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrasenha_placeholder"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/ingresar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar_button"/>
+
+    <Button
+        android:id="@+id/recuperar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recuperar_contrasenha_button"
+        android:layout_marginTop="9dp"
+        style="?android:borderlessButtonStyle"
+        android:onClick="abrirRecuperar"/>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="bottom">
+
+           <Button
+               android:id="@+id/registro_button"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/registro_button"
+
+               />
+       </LinearLayout>
+
+</LinearLayout>
