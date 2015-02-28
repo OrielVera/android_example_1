@@ -1,4 +1,4 @@
-package ve.ucv.ati2.ejemplo2;
+package ve.ucv.dam.example1;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
